@@ -4,6 +4,7 @@ Abstract—Most semi-supervised facial expression recognition (FER) algorithms l
 ## Framework
 ![img](DDL_network.png)
 ## Command
-The training command for RAF-DB is:
+Enter the target directory:
 > cd src
+The training command for RAF-DB is:
 > python train.py --name exp_raf_db --mu 1 --total-steps 250000 --seed 5 --num-classes 7 --finetune-lr 1e-4 --batch-size 32 --seed 5  --finetune-epochs 600  --teacher_lr 0.0018 --student_lr 0.0018 --amp --resize 224 --world-size 2 --workers 4 --randaug 2 16 --warmup-steps 1500 --uda-steps 1500 --nesterov --ema 0.995 --lambda-u 0.5 --label-smoothing 0.15 --w_mmd2 0.5 --lambda-mmd 0.2 --pretrain_model pretrain_model/resnet18_msceleb.pth --log log 
