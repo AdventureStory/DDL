@@ -6,7 +6,7 @@ Abstract—Most semi-supervised facial expression recognition (FER) algorithms l
 ## Model Weights
 | Model | Weights | Pwd |
 |-------|-------|-------|
-| DDL-ResNet18 RAF_DB | [DDL-ResNet18 RAF_DB](https://pan.baidu.com/s/17QP_LEz7XvohowUkC-8jGg))  | pevk |
+| DDL-ResNet18 RAF_DB | [DDL-ResNet18 RAF_DB](https://pan.baidu.com/s/17QP_LEz7XvohowUkC-8jGg)  | pevk |
 | DDL-ResNet50 RAF_DB | [DDL-ResNet50 RAF_DB](https://pan.baidu.com/s/1cp6SWwjSrnk8068q7Eoq8g) | 7v59 |
 ## Command
 Enter the target directory:
